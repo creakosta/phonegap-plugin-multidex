@@ -4,7 +4,10 @@ android {
     }
     
     dexOptions {
-
+        preDexLibraries = false
         javaMaxHeapSize = 8g
     }
+}
+dependencies {
+	implementation 'android.arch.lifecycle:extensions:1.1.0'
 }
