@@ -1,5 +1,3 @@
-apply plugin: 'com.android.feature'
-
 android {
     defaultConfig {
         multiDexEnabled true
@@ -11,7 +9,3 @@ android {
     }
     baseFeature true
 }
-repositories {
-        google()
-        jcenter()
-    }
