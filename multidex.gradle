@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.feature'
 
 android {
     defaultConfig {
@@ -9,12 +9,5 @@ android {
         preDexLibraries = false
         javaMaxHeapSize = 8g
     }
-}
-buildscript {
-    repositories {
-        jcenter() 
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:3.6.1'
-    }
+    baseFeature true
 }
