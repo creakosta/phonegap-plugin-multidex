@@ -11,3 +11,8 @@ android {
     }
     baseFeature true
 }
+repositories {
+        google()
+        jcenter()
+    }
+}
