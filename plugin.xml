@@ -9,13 +9,5 @@
   <license>MIT</license>
   <platform name="android">
     <framework src="multidex.gradle" custom="true" type="gradleReference"/>
-    
-    <config-file target="AndroidManifest.xml" parent="/manifest/application/activity" mode="merge">
-                <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="android.intent.category.BROWSABLE"/>
-                </intent-filter>
-    </config-file>
   </platform>
 </plugin>
