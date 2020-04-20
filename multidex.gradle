@@ -1,3 +1,5 @@
+apply plugin: 'com.android.application'
+
 android {
     defaultConfig {
         multiDexEnabled true
@@ -7,5 +9,4 @@ android {
         preDexLibraries = false
         javaMaxHeapSize = 8g
     }
-    baseFeature true
 }
